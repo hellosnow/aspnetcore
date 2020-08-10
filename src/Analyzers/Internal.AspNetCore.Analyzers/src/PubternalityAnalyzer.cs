@@ -251,7 +251,7 @@ namespace Internal.AspNetCore.Analyzers
             var type = symbolInfo.Type;
             if (!IsInternal(type.ContainingNamespace))
             {
-                // don't care about non-pubternal type references
+                // Don't care about non-pubternal type references
                 return;
             }
 
